@@ -32,3 +32,36 @@ This project implements a simple rule engine using an Abstract Syntax Tree (AST)
    ```bash
    git clone <repository-url>
    cd rule-engine-ast
+Backend Setup
+Navigate to the backend/ folder:
+bash
+Copy code
+cd backend
+Install dependencies:
+bash
+Copy code
+npm install
+Create a .env file to store your MongoDB connection string (or modify the connection string in server.js):
+bash
+Copy code
+MONGODB_URI='your_mongodb_connection_string'
+Start the MongoDB server on your machine or use a remote instance.
+Run the backend server:
+bash
+Copy code
+node server.js
+The backend will run on http://localhost:3001.
+Frontend Setup
+Navigate to the frontend/ folder:
+bash
+Copy code
+cd ../frontend
+Install dependencies:
+bash
+Copy code
+npm install
+Run the React development server:
+bash
+Copy code
+npm start
+The frontend will run on http://localhost:3000.
