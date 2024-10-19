@@ -86,5 +86,21 @@ This project implements a simple rule engine using an Abstract Syntax Tree (AST)
   "experience": 5
 }
 
+### License
+
+This project is licensed under the MIT License - see the LICENSE file for details.
+
+### Happy Coding! 🚀
+```bash 
+### Notes:
+- Replace `<repository-url>` with the actual URL of your repository.
+- Modify any sections that need to be specific to your project's requirements.
+- You might want to add a section for troubleshooting if you have common issues that developers may encounter. 
+
+Let me know if you need any changes or additional information!
+
+
+
+
 
 
