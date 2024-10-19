@@ -51,5 +51,23 @@ This project implements a simple rule engine using an Abstract Syntax Tree (AST)
 ## The backend will run on http://localhost:3001. ##
 
 
+### Frontend Setup
+1. Navigate to the frontend/ folder:
+   ```bash
+   cd ../frontend
+2. Install dependencies:
+   ```bash
+   npm install
+3. Run the React development server:
+   ```bash
+   npm start
+
+## The frontend will run on http://localhost:3000. ##
+
+### API Endpoints
+- **POST /api/create_rule**: Creates a new rule and stores its AST in the database.
+     - **Request Body**: { "ruleString": "((age > 30 AND department = 'Sales') OR (salary > 50000))" }
+- **POST /api/evaluate_rule**: Evaluates the rule's AST with user data and returns eligibility.
+     - **Request Body**: { "ruleString": "((age > 30 AND department = 'Sales') OR (salary > 50000))", "userData": { "age": 35,       "department": "Sales", "salary": 60000, "experience": 5 } }
 
 
