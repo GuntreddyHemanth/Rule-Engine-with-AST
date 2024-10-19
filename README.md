@@ -71,3 +71,20 @@ This project implements a simple rule engine using an Abstract Syntax Tree (AST)
      - **Request Body**: { "ruleString": "((age > 30 AND department = 'Sales') OR (salary > 50000))", "userData": { "age": 35,       "department": "Sales", "salary": 60000, "experience": 5 } }
 
 
+# Example Usage
+
+### Sample Rule
+- **Rule String**:
+   ```bash
+   ((age > 30 AND department = 'Sales') OR (salary > 50000))
+### Sample User Data
+```bash
+{
+  "age": 35,
+  "department": "Sales",
+  "salary": 60000,
+  "experience": 5
+}
+
+
+
